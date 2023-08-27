@@ -13,7 +13,7 @@ const AddContact = () => {
                 <label for="email" className="form-label">Email</label>
                 <input type="text" className="form-control" placeholder='Email'/>
             </div>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary">Add</button>
         </form>
     </div>
   )
