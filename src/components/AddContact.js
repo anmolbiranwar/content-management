@@ -18,7 +18,7 @@ class AddContact extends React.Component{
     return (
       <div>
           <h2>Add Contact</h2>
-          <form className="ui form" onSubmit={this.add}>
+          <form className="ui form">
               <div className="mb-3">
                   <label htmlFor="name" className="form-label">Name</label>
                   <input type="text" className="form-control" placeholder='Name' value={this.state.name} onChange={(e)=>this.setState({name: e.target.value})}/>
@@ -27,7 +27,7 @@ class AddContact extends React.Component{
                   <label htmlFor="email" className="form-label">Email</label>
                   <input type="text" className="form-control" placeholder='Email'value={this.state.email} onChange={(e)=>this.setState({email: e.target.value})}/>
               </div>
-              <button type="button" className="btn btn-primary">Add</button>
+              <button type="button" className="btn btn-primary" onSubmit={this.add}>Add</button>
           </form>
       </div>
     )
