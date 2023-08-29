@@ -10,6 +10,6 @@ const ContactList = (props) => {
   return (
     <div>{renderContactList}</div>
   )
-}
+};
 
 export default ContactList;
