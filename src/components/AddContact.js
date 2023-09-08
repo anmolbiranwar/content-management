@@ -15,7 +15,7 @@ class AddContact extends React.Component{
     this.setState({name:"", email:""});
   }
   render(){
-    return (
+    return ( 
       <div>
           <h2>Add Contact</h2>
           <form className="ui form" onSubmit={this.add}>
